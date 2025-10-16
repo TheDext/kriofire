@@ -1,0 +1,29 @@
+.appInput {
+  width: 100%;
+  border: 1px solid #ABABAB;
+
+  input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    &::placeholder {
+      opacity: 0.6;
+    }
+  }
+
+
+  &:not(:last-child) {
+    margin-bottom: 12px;
+  }
+}
+
+.appInput._error {
+  border: 1px solid red;
+  input {
+
+    &::placeholder {
+      color: red;
+    }
+  }
+}

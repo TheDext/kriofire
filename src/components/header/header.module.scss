@@ -1,0 +1,19 @@
+.header {
+  padding: 0 0 0 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 5;
+  background: #ffffff;
+
+
+  &._isScrolled {
+    #headerContacts{
+      display: none;
+    }
+
+
+  }
+}
+

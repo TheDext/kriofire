@@ -1,0 +1,45 @@
+@use "@var/colors";
+
+.appCheckbox {
+  display: flex;
+  position: relative;
+  align-items: center;
+
+  label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    &:before {
+      content: "";
+      display: block;
+      flex: 0 0 18px;
+      height: 18px;
+      top: 0;
+      border: 2px solid colors.$black;
+      transition: all 0.3s ease 0s;
+      margin-right: 7px;
+    }
+  }
+
+  input {
+    margin-right: 9px;
+    width: 24px;
+    height: 24px;
+    display: none;
+  }
+
+
+}
+
+.appCheckbox._checked {
+  label:before {
+    background: colors.$black;
+    background-image: url("@/assets/icons/check.png");
+    background-size: 16px 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

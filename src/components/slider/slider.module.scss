@@ -1,0 +1,141 @@
+@use "@var/colors";
+
+.slider {
+  margin-top: 100px;
+
+  img {
+    max-width: 100%;
+  }
+}
+.subtitle {
+  margin: 16px 0 24px 0;
+}
+.label {
+  text-align: center;
+  font-stretch: extra-condensed;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+  font-size: 18px;
+}
+.mainSlider {
+  margin-top: 32px;
+  .img {
+    //width: 300px;
+    max-width: 300px;
+    position: relative;
+
+    &:before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background: rgba(182, 178, 178, 0.21);
+      z-index: 2;
+      display: block;
+
+      transition: all 0.3s ease 0s;
+      cursor: pointer;
+    }
+
+    &:hover {
+      &:before {
+        opacity: 0;
+      }
+    }
+  }
+}
+.mainControll {
+  display: flex;
+  justify-content: center;
+  column-gap: 18px;
+  margin-top: 32px;
+}
+.navBtn {
+  width: 36px;
+  height: 36px;
+  border: 1px solid #2d2d2d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  img {
+    width: 9px;
+    height: 15px;
+  }
+
+  &:hover {
+    transform: translate(0, -2px);
+  }
+}
+
+
+.modal {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(51, 51, 51, 0.52);
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modalContent {
+  max-width: 600px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  max-height: 100vh;
+}
+.modalBody {
+  width: 100%;
+  padding: 16px;
+
+  background: #ffffff;
+  .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      //object-fit: cover;
+      //max-width: 100%;
+      //height: 100%;
+      //width: 70vw;
+      //height: ;
+      max-width: 100%;
+      max-height: 100%;
+      width: auto;
+      height: auto;
+      object-fit: contain;
+    }
+  }
+
+}
+
+
+.modalSlider {
+  border: 1px solid colors.$blue;
+}
+
+._reverse {
+  transform: rotate(180deg);
+}
+
+.label {
+  opacity: 0;
+  visibility: hidden;
+  transform: translate(-40px, 0);
+  transition: all 1s ease 0s;
+}
+.label._inView {
+  transform: translate(0px, 0);
+  opacity: 1;
+  visibility: visible;
+}

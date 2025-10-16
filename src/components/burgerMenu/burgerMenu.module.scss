@@ -1,0 +1,28 @@
+@use "@var/colors";
+
+.wrapper {
+  background: colors.$blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 46px 0 30px;
+  height: 100%;
+  cursor: pointer;
+}
+
+.burger {
+  width: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 3px;
+  .line,
+  &::before,
+  &::after{
+    background: colors.$white;
+    content: "";
+    height: 2px;
+    width: 100%;
+  }
+}

@@ -1,0 +1,95 @@
+@use "@var/colors";
+
+.trust {
+  margin-top: 100px;
+}
+.subtitle {
+  margin: 16px 0 24px;
+}
+.label {
+  color: colors.$black;
+  font-size: 18px;
+  font-stretch: extra-condensed;
+  font-weight: 900;
+  letter-spacing: 0.6px;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  margin: 0 -8px;
+  margin-top: 32px;
+  flex-wrap: wrap;
+  row-gap: 18px;
+}
+.column {
+  flex: 1 1 33.333%;
+  padding: 0 8px;
+  display: flex;
+  min-width: 340px;
+}
+.item {
+  border: 1px solid #A6A6A6;
+  padding: 24px;
+  background: colors.$white;
+}
+.number {
+  color: colors.$blue;
+  font-size: 24px;
+}
+.title {
+  margin-top: 8px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #ABABAB;
+  font-stretch: extra-condensed;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+  font-size: 18px;
+  color: colors.$blue;
+}
+.description {
+  margin-top: 24px;
+}
+
+@media (max-width: 992px) {
+  .column {
+    flex: 1 1 100%;
+    min-width: 280px;
+  }
+  .description {
+    font-size: 14px;
+  }
+}
+
+
+.row {
+  .column {
+    opacity: 0;
+    visibility: hidden;
+    transition: all 1s ease 0s;
+    transform: translate(0, 10px);
+
+    &:nth-child(1) {
+      transition: all 0.7s ease 0.2s;
+    }
+    &:nth-child(2) {
+      transition: all 0.7s ease 0.4s;
+    }
+    &:nth-child(3) {
+      transition: all 0.7s ease 0.6s;
+    }
+    &:nth-child(4) {
+      transition: all 0.7s ease 0.8s;
+    }
+  }
+}
+.row._inView {
+  .column {
+    opacity: 1;
+    visibility: visible;
+    transform: translate(0, 0);
+    &:nth-child(0) {
+
+    }
+  }
+}

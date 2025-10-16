@@ -1,0 +1,180 @@
+@use "@var/colors";
+@use "@mixins/index";
+
+.services {
+  margin-top: 100px;
+}
+.subtitle {
+  margin-top: 16px;
+}
+.label {
+  margin: 16px auto  0 auto;
+  color: colors.$black;
+  font-size: 18px;
+  font-stretch: extra-condensed;
+  font-weight: 900;
+  letter-spacing: 0.6px;
+  text-align: center;
+  max-width: 700px;
+}
+.row {
+  margin-top: 32px;
+  display: flex;
+  margin-left: -8px;
+  margin-right: -8px;
+}
+.column {
+  flex: 0 1 25%;
+  display: flex;
+  @include index.responsive-property("paddingLeft", 5,8,992, 1900);
+  @include index.responsive-property("paddingRight", 5,8,992, 1900);
+}
+.item {
+  width: 100%;
+  background: colors.$white;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 16px;
+}
+.name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 5px;
+  color: colors.$blue;
+}
+.body {
+  padding: 16px;
+  text-align: center;
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.price {
+  font-size: 14px;
+  margin-top: auto;
+}
+.img {
+  width: 100%;
+  img {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+.arrowIcon *{
+      fill: red !important;
+      stroke: red !important;
+}
+.arrowIcon {
+
+}
+.btn:hover .arrowIcon {
+  fill: #ff0000;
+}
+.btn {
+  padding: 0 16px;
+  button {
+    border: 1px solid colors.$blue;
+    padding: 16px 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 8px;
+    font-weight: 600;
+    color: colors.$blue;
+    @include index.responsive-font(13, 16, 992, 1900);
+    transition: all 0.3s ease 0s;
+    img {
+      transform: translate(0, 2px);
+    }
+
+    @media (hover: hover) {
+      &:hover {
+        background: colors.$blue;
+        color: colors.$white;
+      }
+    }
+  }
+
+}
+
+.priceBlock {
+  display: flex;
+  margin-top: auto;
+}
+.priceItem {
+  flex: 0 1 50%;
+  &:first-child {
+    border-right: 1px solid #D5D5D5;
+    padding-right: 20px;
+  }
+  &:last-child {
+    padding-left: 20px;
+  }
+}
+.priceTitle {
+  font-size: 12px;
+}
+.price {
+  font-weight: 600;
+  color: colors.$black;
+  white-space: nowrap;
+}
+
+@media (max-width: 992px) {
+  .row {
+    flex-wrap: wrap;
+    row-gap: 30px;
+  }
+  .column {
+    flex: 1 1 50%;
+    min-width: 260px;
+  }
+  .img {
+    img {
+      width: 100%;
+    }
+  }
+  .description {
+    @include index.responsive-font(13, 16, 320, 992);
+  }
+}
+
+
+.row {
+  opacity: 0;
+  visibility: hidden;
+  transform: translate(-40px, 0);
+
+  transition: all 1s ease 0s;
+}
+
+.label {
+  opacity: 0;
+  visibility: hidden;
+  transform: translate(-40px, 0);
+  transition: all 1s ease 0s;
+}
+.label._isView {
+  transform: translate(0px, 0);
+  opacity: 1;
+  visibility: visible;
+}
+.row._isView {
+  transform: translate(0px, 0);
+  opacity: 1;
+  visibility: visible;
+}
+
+.btn {
+  svg {
+    transition: all 0.3s ease 0s;
+  }
+}
+.btn:hover  svg{
+   transform: translate(4px, 0);
+  fill: #ffffff;
+}

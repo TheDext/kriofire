@@ -1,0 +1,25 @@
+@use "@var/colors";
+@use "@mixins/index";
+
+.subtitle {
+  font-family: "Tektur", sans-serif;
+  color: colors.$black;
+  text-align: center;
+
+  opacity: 0;
+  visibility: hidden;
+  transform: translate(0, 10px);
+  transition: all 1s ease 0s;
+
+  @include index.responsive-font(12, 48, 320, 1900);
+
+  @media (max-width: 992px) {
+    @include index.responsive-font(18, 24, 320, 992);
+  }
+}
+
+.subtitle._isView {
+  transform: translate(0, 0);
+  opacity: 1;
+  visibility: visible;
+}

@@ -1,0 +1,46 @@
+@use "@var/colors";
+
+.contacts {
+  display: flex;
+  column-gap: 23px;
+  margin-top: 32px;
+  &Item {
+    display: flex;
+    padding: 0 15px;
+    column-gap: 8px;
+    color: colors.$black;
+    font-weight: 600;
+    @media (max-width: 992px) {
+      &:not(:last-child) {
+        margin-bottom: 25px;
+      }
+    }
+
+    &Img {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  transition: opacity 0.3s ease 0s, margin 0.3s ease 0s;
+
+
+}
+
+.contacts._isScrolled {
+  visibility: hidden;
+  opacity: 0;
+  font-size: 0;
+  margin-top: 0;
+}
+
+@media (max-width: 992px) {
+  .contacts {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid grey;
+    padding-top: 23px;
+
+  }
+}

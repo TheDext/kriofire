@@ -1,0 +1,31 @@
+
+.row  {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 15px;
+  height: 78px;
+}
+
+.menu {
+  position: absolute;
+  top: 78px;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+  transition: all 0.3s ease 0s;
+  background: #ffffff;
+  height: calc(100vh - 79px);
+  opacity: 0;
+  visibility: hidden;
+
+  overflow: auto;
+  padding: 20px ;
+}
+
+
+._show {
+  transform: translate(0, 0);
+  opacity: 1;
+  visibility: visible;
+}

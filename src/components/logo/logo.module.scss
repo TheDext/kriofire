@@ -1,0 +1,23 @@
+@use "@mixins/index";
+
+.logo {
+  @include index.responsive-width(160, 247, 992, 1900);
+  img {
+    max-width: 100%;
+  }
+  transition: all 0.3s ease 0s;
+}
+
+.logo._isScrolled {
+  width: 120px
+}
+
+@media (max-width: 992px) {
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transform: translate(20%, 0);
+  }
+}

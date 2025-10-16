@@ -1,0 +1,32 @@
+@use '@var/colors';
+@use '@mixins/index';
+
+.tabs {
+    background: colors.$greyBgPrimary;
+    border-radius: 8px;
+    padding: 8px;
+    display: inline-flex;
+    column-gap: 15px;
+}
+
+.tabsItem {
+    font-size: 28px;
+    font-weight: 500;
+    padding: 8px 28px;
+    background: transparent;
+    transition: all 0.3s ease 0s;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.tabsItem._active {
+    background: colors.$white;
+}
+
+@media (max-width: 992px) {
+    .tabsItem {
+        @include index.responsive-font(15, 17, 320, 992);
+        padding: 8px 20px;
+    }
+}

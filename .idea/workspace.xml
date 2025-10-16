@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d63fc026-bdf4-49af-85dd-dcb35c0b60eb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sitemap.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/footer/footer.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/footer/footer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/footer/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/mainScreen/mainScreen.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/mainScreen/mainScreen.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/map/map.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/map/map.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/rootLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/rootLayout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/root.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/root.tsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="33f0RPquBWOi1drxBh51KBEAAM3" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/kirill/Desktop/cryofire/src/assets/icons&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\kirill\\Desktop\\cryofire\\client\\node_modules\\prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\kirill\\Desktop\\cryofire\\client\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kirill\Desktop\cryofire\src\assets\icons" />
+      <recent name="C:\Users\kirill\Desktop\cryofire\src\assets\img\certificates" />
+      <recent name="C:\Users\kirill\Desktop\cryofire\src\assets\img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kirill\Desktop\cryofire\src\assets\icons" />
+      <recent name="C:\Users\kirill\Desktop\cryofire\src\assets\img\reviews" />
+      <recent name="C:\Users\kirill\Desktop\cryofire\src\assets\img\choose" />
+      <recent name="C:\Users\kirill\Desktop\cryofire\src\assets\img" />
+      <recent name="C:\Users\kirill\Desktop\cryofire\src\assets\img\services" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.17890.13" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d63fc026-bdf4-49af-85dd-dcb35c0b60eb" name="Changes" comment="" />
+      <created>1759692811148</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1759692811148</updated>
+      <workItem from="1759692813277" duration="795000" />
+      <workItem from="1759693935037" duration="16906000" />
+      <workItem from="1759789867822" duration="2596000" />
+      <workItem from="1759863554298" duration="11985000" />
+      <workItem from="1759875847351" duration="3560000" />
+      <workItem from="1759946076403" duration="17186000" />
+      <workItem from="1760040766145" duration="14377000" />
+      <workItem from="1760206444696" duration="24389000" />
+      <workItem from="1760260608465" duration="12525000" />
+      <workItem from="1760273520927" duration="2143000" />
+      <workItem from="1760284651970" duration="367000" />
+      <workItem from="1760285343192" duration="162000" />
+      <workItem from="1760285560431" duration="8105000" />
+      <workItem from="1760377641262" duration="1457000" />
+      <workItem from="1760385827024" duration="20000" />
+      <workItem from="1760385923329" duration="4753000" />
+      <workItem from="1760468385434" duration="10291000" />
+      <workItem from="1760551261397" duration="9940000" />
+      <workItem from="1760654387899" duration="2757000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

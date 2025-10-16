@@ -1,0 +1,141 @@
+@use "@var/colors";
+
+.directors {
+  margin-top: 100px;
+  color: colors.$blackSecondary;
+}
+.label {
+  max-width: 710px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 24px;
+  font-stretch: extra-condensed;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+  font-size: 18px;
+}
+
+.row {
+  display: flex;
+  margin: 0 -8px;
+  margin-top: 32px;
+  flex-wrap: wrap;
+  row-gap: 15px;
+}
+.column {
+  flex: 1 1 50%;
+  min-width: 600px;
+  padding: 0 8px;
+  display: flex;
+
+  &:last-child .item .img img {
+    object-position: 60%;
+  }
+}
+.item {
+  display: flex;
+  background: colors.$white;
+  padding: 16px;
+  column-gap: 10px;
+}
+.img {
+  flex: 0 0 224px;
+  height: 375px;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+}
+.body {
+  display: flex;
+  flex-direction: column;
+}
+.surname {
+  font-size: 24px;
+}
+.name {
+  font-size: 16px;
+}
+.role {
+  font-stretch: extra-condensed;
+  color: colors.$blueHover;
+  font-weight: 900;
+  font-size: 20px;
+  margin: 16px 0;
+  letter-spacing: 0.6px;
+}
+.description {
+  text-align: justify;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.note {
+  display: flex;
+  margin: auto 0 0 0;
+  background: colors.$blueBackground;
+  padding: 16px;
+  column-gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .column {
+    min-width: 0;
+    flex: 1 1 100%;
+  }
+  .item {
+    flex-direction: column;
+    align-items: center;
+    img {
+      object-fit: contain;
+    }
+  }
+  .description {
+    font-size: 14px;
+  }
+  .note {
+    font-size: 14px;
+  }
+}
+
+
+.label {
+  opacity: 0;
+  visibility: hidden;
+  transform: translate(0, -40px);
+  transition: all 1s ease 0s;
+}
+.label._inView {
+  transform: translate(0px, 0);
+  opacity: 1;
+  visibility: visible;
+}
+
+
+.column {
+  opacity: 0;
+  visibility: hidden;
+  transition: all 1s ease 0.1s;
+
+  &:nth-child(1) {
+    transform: translate(0, 20px);
+  }
+  &:nth-child(2) {
+    transform: translate(0, -20px);
+  }
+}
+
+.column._inView {
+  opacity: 1;
+  visibility: visible;
+
+  &:nth-child(1) {
+    transform: translate(0, 0);
+  }
+  &:nth-child(2) {
+    transform: translate(0, 0);
+  }
+}

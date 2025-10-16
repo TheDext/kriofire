@@ -1,0 +1,97 @@
+@use "@var/colors";
+
+.form {
+  margin-top: 100px;
+
+  form {
+    max-width: 600px;
+    margin: 32px auto 0 auto;
+  }
+  p {
+    margin-top: 12px;
+  }
+}
+.subtitle {
+  margin: 16px 0 24px 0;
+}
+.label {
+  color: colors.$black;
+  font-size: 18px;
+  font-stretch: extra-condensed;
+  font-weight: 900;
+  letter-spacing: 0.6px;
+  text-align: center;
+}
+
+.checkboxes {
+  display: flex;
+  column-gap: 30px;
+  margin-top: 12px;
+}
+
+.textArea {
+  border: 1px solid #ABABAB;
+  padding: 8px;
+  width: 100%;
+  resize: none;
+  font-size: 16px;
+  margin-top: 12px;
+  height: 140px;
+}
+.submitBtn {
+  width: 100%;
+  background: colors.$blue;
+  padding: 16px;
+  color: colors.$white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 12px;
+  margin: 32px 0;
+  img {
+    width: 12px;
+    height: 12px;
+    transform: translate(0, 1px);
+  }
+}
+
+@media (max-width: 768px) {
+  .checkboxes {
+    flex-direction: column;
+    row-gap: 10px;
+  }
+}
+
+
+.label {
+  opacity: 0;
+  visibility: hidden;
+  transform: translate(-40px, 0);
+  transition: all 1s ease 0s;
+}
+.label._inView {
+  transform: translate(0px, 0);
+  opacity: 1;
+  visibility: visible;
+}
+
+.submitBtn {
+  transition: all 0.3s ease 0s;
+  svg {
+    fill:  #ffffff;
+    transition: all 0.3s ease 0s;
+  }
+}
+.submitBtn:hover  {
+  background:   #194D8C;
+  svg{
+    transform: translate(4px, 0);
+    fill: #ffffff;
+  }
+}
+
+.errorText {
+  margin-top: 6px;
+  color: red;
+  text-align: center;
+}

@@ -1,0 +1,92 @@
+@use "@var/colors";
+
+.contacts  {
+  margin-top: 100px;
+  padding: 20px;
+}
+.row {
+  display: flex;
+  column-gap: 16px;
+}
+.info {
+  background: colors.$black;
+  padding: 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 0 1 572px;
+  color: #ffffff;
+  min-width: 570px;
+}
+.map {
+  flex: 0 1 100%;
+
+  div {
+    height: 100%;
+  }
+}
+
+.title {
+  font-size: 24px;
+}
+.subtitle {
+  font-family: "Tektur", sans-serif;
+  font-size: 42px;
+  margin-top: 16px;
+}
+.label {
+  font-stretch: extra-condensed;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+  font-size: 18px;
+  margin-top: 24px;
+}
+.body {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+}
+
+.contact {
+  &:not(:last-child) {
+    margin-bottom: 60px;
+  }
+  &Img {
+    img {
+      width: 20px;
+      height: 20px;
+      object-fit: contain;
+    }
+  }
+  &Title {
+    margin-top: 8px;
+  }
+  &Subtitle {
+    margin-top: 8px;
+    opacity: 0.5;
+  }
+  &Link {
+    display: block;
+    margin-top: 8px;
+    color: #ffffff !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .contacts {
+    padding: 0;
+  }
+  .row {
+    flex-direction: column;
+  }
+  .info {
+    min-width: 0;
+    padding: 43px 20px 20px 20px;
+  }
+  .map {
+    min-height: 400px;
+    & > ymaps {
+      min-height: 400px;
+    }
+  }
+}
