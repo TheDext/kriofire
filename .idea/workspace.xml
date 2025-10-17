@@ -5,18 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d63fc026-bdf4-49af-85dd-dcb35c0b60eb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/sitemap.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/footer/footer.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/footer/footer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/footer/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/mainScreen/mainScreen.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/mainScreen/mainScreen.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/map/map.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/map/map.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/rootLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/rootLayout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/root.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/root.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/appCheckobox/appCheckbox.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/appCheckobox/appCheckbox.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer/footer.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/footer.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer/footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/footer.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +93,8 @@
       <workItem from="1760385923329" duration="4753000" />
       <workItem from="1760468385434" duration="10291000" />
       <workItem from="1760551261397" duration="9940000" />
-      <workItem from="1760654387899" duration="2757000" />
+      <workItem from="1760654387899" duration="3158000" />
+      <workItem from="1760734238186" duration="2150000" />
     </task>
     <servers />
   </component>

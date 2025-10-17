@@ -29,7 +29,6 @@ export const Footer = () => {
                         изменена в любое время без предварительного уведомления.
                     </p>
                 </div>
-                <div className={classes.logo}>© BLACKWHITE, 2025</div>
             </div>
         </footer>
     );
