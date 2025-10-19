@@ -96,6 +96,8 @@ const Slider: FC<SlierType> = ({ config }) => {
                 </div>
 
                 <Swiper
+                    // centeredSlides={true}
+                    centerInsufficientSlides={true}
                     className={classes.mainSlider}
                     modules={[Pagination]}
                     onSwiper={(swiper: SwiperClass) =>
