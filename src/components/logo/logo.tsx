@@ -1,5 +1,4 @@
-import desktopLogo from '@img/desktopLogo.png';
-import mobileLogo from '@img/mobileLogo.png';
+import logo from '@img/colorLogo.png';
 import classes from './logo.module.scss';
 import useMatchMedia from '@/core/hooks/useMatchMedia';
 import classNames from '@/utils/classNames';
@@ -13,11 +12,14 @@ export const Logo = ({ isScrolled }: { isScrolled?: boolean }) => {
             to="/"
             className={classNames(
                 classes.logo,
-                { [classes._isScrolled]: isScrolled },
+                {
+                    [classes._isScrolled]: isScrolled,
+                    [classes._isMobile]: !isDesktop,
+                },
                 []
             )}
         >
-            <img src={isDesktop ? desktopLogo : mobileLogo} alt={'logo'} />
+            <img src={logo} alt={'logo'} />
         </Link>
     );
 };

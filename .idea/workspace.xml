@@ -6,10 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="d63fc026-bdf4-49af-85dd-dcb35c0b60eb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/certificates/01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/certificates/01.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/certificates/02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/certificates/02.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/slider/slider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/slider/slider.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/certificates.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/certificates.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/logo/logo.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/logo/logo.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/logo/logo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/logo/logo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/mainScreen/mainScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/mainScreen/mainScreen.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/services/services.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/services/services.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/plans.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/plans.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +44,7 @@
     "nodejs_package_manager_path": "npm",
     "prettierjs.PrettierConfiguration.Package": "C:\\Users\\kirill\\Desktop\\cryofire\\client\\node_modules\\prettier",
     "settings.editor.selected.configurable": "settings.javascript.prettier",
-    "ts.external.directory.path": "C:\\Users\\kirill\\Desktop\\cryofire\\client\\node_modules\\typescript\\lib",
+    "ts.external.directory.path": "C:\\Users\\administrator\\Desktop\\Новая папка (5)\\kriofire\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -97,6 +98,7 @@
       <workItem from="1760551261397" duration="9940000" />
       <workItem from="1760654387899" duration="3158000" />
       <workItem from="1760734238186" duration="4186000" />
+      <workItem from="1761225373179" duration="1461000" />
     </task>
     <servers />
   </component>
