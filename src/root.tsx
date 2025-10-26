@@ -6,7 +6,6 @@ import {
     Scripts,
     ScrollRestoration,
 } from 'react-router';
-
 import type { Route } from './+types/root';
 import '@/styles/index.scss';
 
@@ -38,19 +37,20 @@ export const links: Route.LinksFunction = () => [
 export function Layout({ children }: { children: React.ReactNode }) {
     return (
         <html lang="en">
-            <head>
-                <meta charSet="utf-8" />
-                <meta
-                    name="viewport"
-                    content="width=device-width, initial-scale=1"
-                />
-                <Meta />
-                <Links />
+        <head>
+            <meta charSet="utf-8"/>
+            <meta
+                name="viewport"
+                content="width=device-width, initial-scale=1"
+            />
+            <title>Разработка технической документации по промбезопасности, ГО и ЧС под ключ</title>
+            <meta name="description" content="Профессиональная разработка технической документации в области промышленной безопасности и предупреждения чрезвычайных ситуаций под ключ. Гарантия согласования. Работаем по всей России."/>
+            <Meta/>
+            <Links/>
 
-                <script src="https://api-maps.yandex.ru/v3/?apikey=YOUR_API_KEY&lang=ru_RU"></script>
-            </head>
-            <body className={'app'}>
-                {children}
+        </head>
+        <body className={'app'}>
+        {children}
                 <ScrollRestoration />
                 <Scripts />
             </body>

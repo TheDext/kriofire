@@ -140,7 +140,7 @@ export const Form = () => {
             <div className="_container-default">
                 <Title>Kriofire</Title>
                 <div className={classes.subtitle}>
-                    <Subtitle>Свяжитесь с нами</Subtitle>
+                    <Subtitle><h2>Свяжитесь с нами</h2></Subtitle>
                 </div>
                 <div
                     ref={ref}

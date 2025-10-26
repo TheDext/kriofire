@@ -1,8 +1,9 @@
 import classes from './subtitle.module.scss';
 import { useInView } from 'react-intersection-observer';
 import classNames from '@/utils/classNames';
+import type {ReactNode} from "react";
 
-export const Subtitle = ({ children }: { children: string }) => {
+export const Subtitle = ({ children }: { children: string | ReactNode }) => {
     const { ref, inView } = useInView({
         threshold: 1,
         triggerOnce: true,

@@ -10,7 +10,7 @@ export const Contacts = () => {
         <div id={'contacts'} className={classes.contacts}>
             <div className={classes.row}>
                 <div className={classes.info}>
-                    <div className={classes.title}>// Контакты</div>
+                    <div className={classes.title}><h3>// Контакты</h3></div>
                     <div className={classes.subtitle}>Свяжитесь с нами</div>
                     <div className={classes.label}>
                         Мы всегда готовы ответить на ваши вопросы

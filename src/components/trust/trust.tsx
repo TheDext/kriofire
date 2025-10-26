@@ -17,7 +17,7 @@ export const Trust = () => {
             <div className={'_container-default'}>
                 <Title>{title}</Title>
                 <div className={classes.subtitle}>
-                    <Subtitle>{subtitle}</Subtitle>
+                    <Subtitle><h2>{subtitle}</h2></Subtitle>
                 </div>
                 <div className={classes.label}>{label}</div>
                 <div

@@ -17,7 +17,7 @@ export const Directors = () => {
     return (
         <div className={classes.directors}>
             <div className={'_container-default'}>
-                <Subtitle>{subtitle}</Subtitle>
+                <Subtitle><h2>{subtitle}</h2></Subtitle>
                 <div
                     ref={ref}
                     className={classNames(

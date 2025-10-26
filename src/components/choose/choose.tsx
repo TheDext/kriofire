@@ -14,7 +14,7 @@ export const Choose = () => {
     return (
         <div className={classes.choose}>
             <div className="_container-default">
-                <Subtitle>{subtitle}</Subtitle>
+                <Subtitle><h2>{subtitle}</h2></Subtitle>
 
                 <div
                     ref={ref}

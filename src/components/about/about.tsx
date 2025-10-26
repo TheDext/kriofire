@@ -7,7 +7,7 @@ export const About = () => {
     return (
         <div id="about" className={classes.about}>
             <div className={'_container-default'}>
-                <Subtitle>О нас</Subtitle>
+                <Subtitle><h2>О нас</h2></Subtitle>
                 <div className={classes.main}>
                     <div className={classes.mainImg}>
                         <img src={fireIcon} alt="fireIcon" />

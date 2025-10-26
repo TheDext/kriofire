@@ -22,7 +22,7 @@ export const Services = () => {
             <div className="_container-default">
                 <Title>Профессиональный подход</Title>
                 <div className={classes.subtitle}>
-                    <Subtitle>Наши услуги</Subtitle>
+                    <Subtitle><h2>Наши услуги</h2></Subtitle>
                 </div>
                 <div
                     ref={ref}
@@ -60,7 +60,7 @@ export const Services = () => {
                                                 src={smallFileIcon}
                                                 alt="smallFileIcon"
                                             />
-                                            <span>{name}</span>
+                                            <span><h3>{name}</h3></span>
                                         </div>
                                         <div className={classes.description}>
                                             {description}
