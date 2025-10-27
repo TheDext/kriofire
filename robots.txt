@@ -3,4 +3,4 @@ Allow: /
 Disallow: /admin/
 Disallow: /*?*
 
-#Sitemap: https://domain/sitemap.xml
+#Sitemap: https://kriofire.com/sitemap.xml
