@@ -117,7 +117,7 @@ export const Form = () => {
         try {
             const res = await httpService.post('sendMail', data);
             console.log('res', res);
-            if (res) alert('Фора успешно отправлена!');
+            if (res) alert('Сообщение отправлено успешно!');
             setData({
                 name: '',
                 email: '',

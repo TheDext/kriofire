@@ -18,7 +18,7 @@ const headerContact = [
         id: 'sendmail',
         img: mailIcon,
         label: 'kriofire',
-        value: 'mailto:kriofire@mail.ru',
+        value: 'mailto:kriofire_tmn@mail.ru',
     },
 ];
 export default headerContact;
