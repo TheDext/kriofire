@@ -7,9 +7,10 @@ import img06 from '@img/reviews/06.jpg';
 import img07 from '@img/reviews/07.jpg';
 import img08 from '@img/reviews/08.jpg';
 import img09 from '@img/reviews/09.jpg';
+import img10 from '@img/reviews/10.jpg';
 
 
-const images = [img01, img02, img03, img04, img05, img06, img07, img08, img09];
+const images = [img01, img02, img03, img04, img05, img06, img07, img08, img09, img10];
 const title = 'Профессиональный подход';
 const subtitle = 'Отзывы';
 const label =
