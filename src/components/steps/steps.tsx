@@ -8,7 +8,7 @@ import classNames from '@/utils/classNames';
 import useMatchMedia from '@/core/hooks/useMatchMedia';
 
 export const Steps = () => {
-    const { steps, title, label, subtitle } = stepsConfig;
+    const { steps, title, label, label2, subtitle } = stepsConfig;
     const { isDesktop } = useMatchMedia();
     const { ref, inView } = useInView({
         threshold: isDesktop ? 0.3 : 0,
@@ -31,7 +31,8 @@ export const Steps = () => {
                         []
                     )}
                 >
-                    {label}
+	<p>{label}</p>
+        <p>{label2}</p>
                 </div>
                 <div
                     ref={ref}
