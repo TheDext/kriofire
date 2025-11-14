@@ -12,6 +12,15 @@ import '@/styles/index.scss';
 export const links: Route.LinksFunction = () => [
     { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
     {
+        rel: "icon",
+        type: "image/png",
+        href: "/public/favicon.ico"
+    },    {
+        rel: "icon",
+        type: "image/png",
+        href: "/favicon.ico"
+    },
+    {
         rel: 'preconnect',
         href: 'https://fonts.gstatic.com',
         crossOrigin: 'anonymous',
