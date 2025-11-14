@@ -14,7 +14,7 @@ export const links: Route.LinksFunction = () => [
     {
         rel: 'shortcut icon',
         sizes: '32x32',
-        href: '/public/favicon.ico',
+        href: '/favicon.ico',
     },
     {
         rel: 'preconnect',
