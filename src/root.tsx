@@ -12,13 +12,9 @@ import '@/styles/index.scss';
 export const links: Route.LinksFunction = () => [
     { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
     {
-        rel: "icon",
-        type: "image/png",
-        href: "/public/favicon.ico"
-    },    {
-        rel: "icon",
-        type: "image/png",
-        href: "/favicon.ico"
+        rel: 'shortcut icon',
+        sizes: '32x32',
+        href: '/public/favicon.ico',
     },
     {
         rel: 'preconnect',
@@ -46,20 +42,25 @@ export const links: Route.LinksFunction = () => [
 export function Layout({ children }: { children: React.ReactNode }) {
     return (
         <html lang="en">
-        <head>
-            <meta charSet="utf-8"/>
-            <meta
-                name="viewport"
-                content="width=device-width, initial-scale=1"
-            />
-            <title>Разработка технической документации по промбезопасности, ГО и ЧС под ключ</title>
-            <meta name="description" content="Профессиональная разработка технической документации в области промышленной безопасности и предупреждения чрезвычайных ситуаций под ключ. Гарантия согласования. Работаем по всей России."/>
-            <Meta/>
-            <Links/>
-
-        </head>
-        <body className={'app'}>
-        {children}
+            <head>
+                <meta charSet="utf-8" />
+                <meta
+                    name="viewport"
+                    content="width=device-width, initial-scale=1"
+                />
+                <title>
+                    Разработка технической документации по промбезопасности, ГО
+                    и ЧС под ключ
+                </title>
+                <meta
+                    name="description"
+                    content="Профессиональная разработка технической документации в области промышленной безопасности и предупреждения чрезвычайных ситуаций под ключ. Гарантия согласования. Работаем по всей России."
+                />
+                <Meta />
+                <Links />
+            </head>
+            <body className={'app'}>
+                {children}
                 <ScrollRestoration />
                 <Scripts />
             </body>
